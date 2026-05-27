@@ -29,6 +29,16 @@ const CONFIG = {
       },
     },
     external: {
+      header: 'Github Pages',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          title: 'Bootstrap Bootcamp website',
+          description:
+            'Bootcamp website made using Bootstrap',
+          link: 'https://ersalgue.github.io/bootstrap-example/',
+        },
+      ],
     },
   },
   seo: { title: 'Portfolio of ersalgue', description: '', imageURL: '' },
